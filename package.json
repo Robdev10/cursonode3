@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "cursonode3",
+  "description": "criando teste 3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Robdev10/cursonode3.git)"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "express",
+    "fs",
+    "path",
+    "url",
+    "mongodb",
+    "udp"
+  ],
+  "author": "Robson Roberto",
+  "license": "MIT"
+}
