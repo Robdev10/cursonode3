@@ -1,0 +1,8 @@
+console.log(`Nome do Arquivo:`, __filename)
+console.log(`Diretório do Arquivo:`, __dirname)
+console.log(`Parâmetros de Execução:`, process.argv)
+console.log(`Ambiente do Servidor:`, process.platform)
+console.log(`sistema operacional:`, process.env.OS)
+console.log(`usuario:`, process.env.USERNAME)
+console.log(`idioma:`, process.env.LANG)
+console.log(`nome do server:`, process.env.COMPUTERNAME)
