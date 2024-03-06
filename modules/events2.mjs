@@ -1,6 +1,6 @@
-const {EvemtEmitter} = require("events")
+import {EventEmitter} from "events"
 
-class Evento extends EvemtEmitter{}
+class Evento extends EventEmitter{}
 
 const meuevento = new Evento();
 
@@ -14,7 +14,7 @@ meuevento.on("seguranca", (x, y)=>{
 //publish - emissor
 meuevento.emit("seguranca", "useradmin","alterou salario")
 
-meuevento.on('encerrar',()=>{
+meuevento.on('encerrar',(dados)=>{
     console.log(`Assinante:` + dados)
 })
 

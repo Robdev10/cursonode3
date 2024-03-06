@@ -25,5 +25,11 @@
     "udp"
   ],
   "author": "Robson Roberto",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
+
+  
+    
+  
 }
+
